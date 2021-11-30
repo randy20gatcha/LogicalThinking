@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>Randy's Resume</title>
+</head>
+<body>
+    <div class=" container">
+        <h2>My Online Resume</h2>
+        <div class="mainPage">
+            <button class="this" id="myBtn">Randy's Info</button>
+        </div> 
+        <div class="mainPage">
+            <button  class="this" id="myBtnTwo">Work Experience</button>
+        </div>
+        <div class="mainPage">
+            <button  class="this" id="myBtnThree">Educational Background</button>
+        </div>
+        <div class="mainPage">
+            <button  class="this" id="myBtnFour">Upcoming</button>
+        </div>        
+    </div>
+
+   
+        <!-- The Modal -->
+         <!-- First Modal content -->
+        <div id="myModal" class="modal">            
+               
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h4>Randy Gatchalian</h4>
+                </div>
+
+                <div class="modal-body">    
+                    <p>846 Panasahan, Malolos City, Bulacan, Philippines</p>
+                    <p>email: randy20gatcha@gmail.com</p>
+                </div>   
+
+                <div class="modal-footer">
+                    <h5>With a little sprinkle of JavaScript</h5>
+                </div>              
+        </div>
+
+         <!-- Second Modal content -->
+        <div id="myModalTwo" class="modal">            
+           
+            <div class="modal-header">
+                <span class="close" id="closed">&times;</span>
+                <h4>My work experience</h4>
+            </div>
+
+            <div class="modal-body">    
+                <p>Previously I was a service technician in a local automotive dealership.</p>
+            </div>    
+
+            <div class="modal-footer">
+                <h5>With a little sprinkle of JavaScript</h5>
+            </div>               
+        </div>
+
+        <!-- Third Modal content -->
+        <div id="myModalThree" class="modal">            
+           
+            <div class="modal-header">
+                <span class="close" id="closed3">&times;</span>
+                <h4>School I graduated from</h4>
+            </div>
+
+            <div class="modal-body">    
+                <p>I graduated from Bulacan State University</p>
+            </div>    
+
+            <div class="modal-footer">
+                <h5>With a little sprinkle of JavaScript</h5>
+            </div>               
+        </div>
+
+        <!-- Fourth Modal content -->
+        <div id="myModalFour" class="modal">            
+           
+            <div class="modal-header">
+                <span class="close" id="closed4">&times;</span>
+                <h4>skills and upcoming skills in the pipeline</h4>
+            </div>
+
+            <div class="modal-body">
+                <p>I have basic skills in HTML5, CSS, and JavaScript</p>    
+                <p>I am Soon to be literate in ASP.NET Core MVC architecture</p>
+            </div>    
+
+            <div class="modal-footer">
+                <h5>With a little sprinkle of JavaScript</h5>
+            </div>               
+        </div>
+    
+      <script src="app.js"></script>
+</body>
+</html>
